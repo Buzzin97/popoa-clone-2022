@@ -5,3 +5,4 @@
   HTML & CSS are so much fun 
   
   css @import 사용
+  html flex 이용
