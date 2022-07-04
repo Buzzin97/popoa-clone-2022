@@ -16,6 +16,10 @@
   color: black;
  }
 
+ #friend-screen {
+  height: 150vh;
+ }
+
  .friend-screen {
     padding: 0px var(--horizontla-space);
  }

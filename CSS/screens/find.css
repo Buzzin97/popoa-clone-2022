@@ -119,3 +119,7 @@
     will-change: tranform;
     animation: heartBeat 1s linear infinite;
 }
+
+#find-screen {
+    height: 120vh;
+}
