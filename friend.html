@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friend-Srceens</title>
 </head>
-<body>
+<body id="friend-screen">
     <div class="status-bar">
         <div class="status-bar__column">
           <span>No Service</span>
@@ -70,8 +70,10 @@
             </div>
           </div>
           <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -86,18 +88,18 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
-            <span class="nav__notification">1</span>
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="find.html">
             <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="more.html">
             <div class="nav__won"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
@@ -105,9 +107,13 @@
       </ul>
     </nav>
 
-    </nav>
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
     
-
+    <div id="no-mobile">
+      <span>화면 사이즈를 줄여라 뿌우~~!</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/5294c94b3e.js" crossorigin="anonymous"></script>
 </body>
